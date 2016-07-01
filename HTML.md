@@ -145,3 +145,10 @@ content they contain. The goal of CSS should be to write as few lines as possibl
 take advantage of the "cascading" affect of CSS.
 
 ___ALL CSS should be written in a CSS file not a style tag___
+
+
+
+[ previous ](JavaScript.md)  
+
+
+[ next page ](Python.md)

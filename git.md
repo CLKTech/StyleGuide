@@ -46,3 +46,8 @@ directly push to a feature branch that isn't there's unless previously discussed
 ### Learning Git
 
 If you don't know git [here's a great resource](http://learngitbranching.js.org/)
+
+
+[Back To README](README.md)
+
+[ next page ](JavaScript.md)

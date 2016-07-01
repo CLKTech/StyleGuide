@@ -125,3 +125,10 @@ These tags will be used to automatically generate documentation using either
   block indentation, and then the "*"s should line up with the first star, so
   one space over from the current block indentation. There should hen be one space
   after the star and before the first character
+
+
+
+[ previous ](git.md)  
+
+
+[ next page ](HTML.md)
