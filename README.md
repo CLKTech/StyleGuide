@@ -6,5 +6,5 @@ must follow this set of coding styles, and best practices
 
 - [ Git Branching Strategy ](git.md)
 - [ JavaScript  ](JavaScript.md)
-- [ HTML  ](HTML.md)
+- [ HTML/CSS  ](HTML.md)
 - [ Python  ](Python.md)
