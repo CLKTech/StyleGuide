@@ -66,11 +66,12 @@ other developers can easily use code.
   var x=10;
   ```
 
+
 - Good logical line breaks it's hard to have too much spacing.
 
   Example:
   ```javascript
-    function getName(user){
+    function getName(user) {
 
       return user.name;
 
@@ -80,7 +81,7 @@ other developers can easily use code.
   or
 
   ```javascript
-    if(user){
+    if(user) {
 
       return user.name;
 
@@ -94,6 +95,83 @@ other developers can easily use code.
   Functions should also be between 10 and 20 lines, it's better to keep them
   small it gives the reader a much better understanding of what's going on. This
   is not a hard limit, so use your best judgment.
+
+- Spacing within a block should all be the same
+
+  _good_ 
+
+  ```javascript
+  if (true) {
+
+    var x = 10;
+    var y = 10;
+
+  }
+  ```
+
+  _bad_ 
+
+  ```javascript
+  if (true) {
+
+    var x = 10;
+      var y = 10;
+
+  }
+  ```
+
+- One space before the "{" for any block statement
+
+  _good_ 
+
+  ```javascript
+  if (true) {
+
+    var x = 10;
+    var y = 10;
+
+  }
+  ```
+
+  _bad_ 
+
+  ```javascript
+  if (true){
+
+    var x = 10;
+    var y = 10;
+
+  }
+  ```
+
+- Multpiple function calls should all have the same indent level, and "." should
+  line up
+
+  _good_
+
+  ```javascript
+  var x = map.set('a', 1)
+             .set('b', 2)
+             .set('c', 3)
+             .set('d', 3);
+  ```
+
+  _bad_
+
+  ```javascript
+  var x = map.set('a', 1).set('b', 2)
+             .set('c', 3)
+             .set('d', 3);
+  ```
+
+  _bad_
+
+  ```javascript
+  var x = map.set('a', 1)
+    .set('b', 2)
+    .set('c', 3)
+    .set('d', 3);
+  ```
 
 
 ### Commenting
